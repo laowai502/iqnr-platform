@@ -1,0 +1,11 @@
+.pro-wrap {
+    .pro-content {
+        padding: 24px 20px 10px 100px;
+
+        &>h5 {
+            color: #666;
+            font-size: 12px;
+            font-weight: normal;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.main-container {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    .main-body {
+        display: block;
+        position: relative;
+        height: calc(100vh);
+        padding-top: 100px;
+        background-color: rgba(236, 236, 236, .5);
+        .main-content {
+            // padding: 10px 10px 10px 230px;
+            // height: auto;
+            // min-height: 100%;
+            // background-color: #e0e0e0;
+            // ::ng-deep .main-pages-content {
+            //     width: 100%;
+            //     background-color: #FFFFFF;
+            //     min-height: calc(100vh - 80px);
+            // }
+        }
+    }
+}

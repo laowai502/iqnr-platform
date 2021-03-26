@@ -1,1 +1,115 @@
+@import '~font-awesome/css/font-awesome.min.css';
+@import "~bootstrap/scss/bootstrap";
+
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+    background: #fff;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    color: #333;
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+}
+
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+    margin: 0;
+    padding: 0
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+}
+
+* {
+    outline: none;
+}
+
+// body {
+//     &::-webkit-scrollbar {
+//     	width: 6px;
+//     }
+//     &::-webkit-scrollbar-thumb {
+//     	border-radius: 4px;
+// 		// -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+// 		background-color: #6487e6;
+//     }
+// }
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.ib {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.lht26 {
+    line-height: 26px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p16 {
+    padding: 16px;
+}
+
+.p24 {
+    padding: 24px;
+}
+
+.pr16 {
+    padding-right: 16px !important; 
+}
+
+.m16 {
+    margin: 16px !important;
+}
+
+.mt12 {
+    margin-top: 12px;
+}
+
+.mt16 {
+    margin-top: 16px !important;
+}
+
+.mr12 {
+    margin-right: 12px !important;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.ml8 {
+    margin-left: 8px;
+}
+
+.cur {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
